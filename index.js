@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 
 import schema from './lib/graphql';
 
-mongoose.connect('mongodb://localhost:27017/football');
+mongoose.connect('mongodb://localhost:27017/siteska');
 
 const db = mongoose.connection;
 
